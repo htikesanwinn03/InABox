@@ -1,0 +1,36 @@
+body::before {
+    display:block;
+    content: '';
+    height:60px;
+}
+body {
+    font-family: "Shippori Mincho B1", sans-serif;
+  }
+
+
+.ib {
+    position: fixed;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+.ib a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+.ib a:hover {
+    background-color: #000;
+  }
+  
+ #bot {
+    background: #3B5998;
+    color: white;
+  }

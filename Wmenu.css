@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Shippori Mincho", sans-serif;
+}
+
+body::before {
+    display:block;
+    content: '';
+    height:80px;
+}
+
+.body{
+    min-height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+
+}
+body {
+    font-family: "Shippori Mincho B1", sans-serif;
+  }
+
+  .ib {
+    position: fixed;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  .ib a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .ib a:hover {
+    background-color: #000;
+  }
+  
+ #bot {
+    background: #3B5998;
+    color: white;
+ }
+
+ .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: gray;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

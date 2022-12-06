@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Shippori Mincho">
+    <script src="https://kit.fontawesome.com/cb80f46778.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="Menu.css">
+   
+</head>
+</head>
+<body>
+    <!-- nav bar -->
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 fixed-top">
+                <div class="container">
+                <a href="Home.html" class="navbar-brand">🅸🅽 🅰 🅱🅾🆇 </i></a>
+        
+                <buttom class="navbar-toggler" type="buttom" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <i class="fa-regular fa-rectangle-list"></i>
+                </buttom>
+                <span class=""navbar-toggler-icon></span>
+                <div class="collapse navbar-collapse" id="navmenu">
+        
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a href="Menu.html" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Packge.html" class="nav-link">Packages </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Planner.html" class="nav-link">Planners & Nutrition </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Gift.html" class="nav-link">Gifts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="FAQs.html" class="nav-link">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="support.html" class="nav-link">Support </a>
+                        </li>                                                                                                                                                                                                                                                               
+                    </ul>
+                </div>
+            </div>
+            </nav>
+            <!-- Help icon-->
+    <div class="ib">
+        <a class="btn btn-outline-danger" href="#" role="button" id="bot" ><i class="fa-solid fa-pen"></i></a>
+    </div>
+</section>
+</header>
+    <section class="bg-dark text-light p-5  pt-lg-10 text-center ">
+        <div class="container ">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                
+                <div class="box">
+                    <div class="dropdown">
+                      <p>
+                        🅸🅽 🅰 🅱🅾🆇 
+                        <span class="left-icon"></span>
+                        <span class="right-icon"></span>
+                      </p>
+                    <div class="items">
+                        <a href="#recipe"><span></span>Recipes</a>
+                        <a href="WMenu.html"><span></span>Weely Menus</a>
+                        <a href="BAH.html"><span></span>Bake At Home Set</a>                    </div>
+                   
+                    </div>           
+              </div>
+          <img class="img-fluid w-50 d-none d-sm-block"src="https://as2.ftcdn.net/v2/jpg/02/36/49/29/1000_F_236492969_YzNqi2kp8cEChZA8c4c1cbclpZpEP3Ln.jpg" style=" width: 700px;" alt="">
+          </div>
+            
+
+        </div>
+    </section>
+<!-- About-->
+<section class="bg-secondary text-dark text-center p-6">
+  <div class="container">
+   <div class="d-md-flex justify-content-between align-items-center">
+   <h3 class="mb-3 mb-md-0 py-5">   Shop for ingredients </h3>
+   <a href="ingredient.html" class="btn btn-outline-info "> Click Here</a>
+   
+  </div>
+  <br>
+  </div>
+</section>
+<hr>
+    <section class="p-5 " id="recipe">
+            <div class="container" >
+                <h3 class="mb-3 mb-md-0 py-5">Have a tasty meal with <span class="text-danger">Our Delicious Menus</h3></span>
+                <hr>
+                <br>
+
+                <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('normal')"> Normal</button>
+                    <button class="btn" onclick="filterSelection('veggie')"> Veggie</button>
+                    <button class="btn" onclick="filterSelection('spicy')"> Spicy</button>
+                  </div>
+                  
+                  <!-- Portfolio Gallery Grid -->
+                  <div class="row">
+                    <div class="column veggie">
+                      <div class="content">
+                        <img src="https://media.blueapron.com/recipes/35051/square_newsletter_images/1667845108-50-0004-3980/1212_2PV2_Chipotle-Squash-Tacos_081_SQ_Web.jpg?quality=80&width=850" alt="Mountains" style="width:100%">
+                        <br>
+                        <h4>Oven-Baked Squash & Black Bean</h4>
+                        <hr>
+                        <h5>with Sour Cream and Cispy Onions</h5>
+                        <p> Time - 40mins </p>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                          Read More 
+                        </button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                          Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                        </button>
+
+                      </div>
+                    </div>
+                  <div class="column veggie">
+                      <div class="content">
+                      <img src="https://media.blueapron.com/recipes/35578/square_newsletter_images/1667846004-50-0017-3603/0301_2PV3_Tomato-Curry-Shakshuka_026_SQ_Web.jpg?quality=80&width=850" alt="Lights" style="width:100%">
+                      <br>
+                      <h4>One-Pan Chickpea & Curry</h4>
+                      <hr>
+                      <h5>with Tomatoes and Spinach</h5>
+                      <p> Time - 30mins </p>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Read More 
+                      </button>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                        Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                      </button>
+  
+
+
+                      </div>
+                  </div>
+                  <div class="column veggie">
+                      <div class="content">
+                      <img src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/black-bean-poblano-flautas-baee9fda.jpg" alt="Nature" style="width:100%">
+                     
+                      <br> <h4>Cheesy Black Bean Flautas</h4>
+                      <hr>
+                      <h5>with Cabbage Slaw & Lime Sour Cream</h5>
+                      <p> Time - 35mins </p>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Read More 
+                      </button>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                        Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                      </button>
+
+                      </div>
+                  </div>
+                    
+                  <div class="column normal">
+                      <div class="content">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1CnI2hv553mTQUwDioWVdaQxc-nIBSOtFAxrFsCFOlUzJ0zhuhbPjSG6jbajM_47L4Ng&usqp=CAU" alt="Car" style="width:100%">
+                        <br><h4>Pork Belly & Miso Ramen</h4>
+                        <hr>
+                        <h5>with Soft-Boiled Eggs</h5>
+                        <p> Time - 40mins </p>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                          Read More 
+                        </button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                          Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                        </button>
+                      </div>
+                  </div>
+
+                  <div class="column normal">
+                      <div class="content">
+                      <img src="https://media.blueapron.com/recipes/35211/centered_main_dish_images/1667845405-47-0028-9490/1212_2P12_Ribeye-Steak_231_Web.jpg?quality=80&width=800" alt="Car" style="width:100%">
+                      <br><h4>Ribeye Steak </h4>
+                      <hr>
+                      <h5>with Sauteed Vegetables </h5>
+                      <p> Time - 50mins </p>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Read More 
+                      </button>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                        Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                      </button>
+                      </div>
+                  </div>
+
+                  <div class="column normal">
+                      <div class="content">
+                      <img src="https://media.blueapron.com/recipes/35321/centered_main_dish_images/1667941490-47-0017-2767/1212_2PP_Hot-Honey-Chicken_066_Web.jpg?quality=80&width=800" alt="Car" style="width:100%">
+                      <br><h4>Hot Honey Chicken </h4>
+                      <hr>
+                      <h5>with mashed potatoes</h5>
+                      <p> Time - 30mins </p>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Read More 
+                      </button>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                        Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                      </button>
+                      </div>
+                  </div>
+                  
+                  <div class="column spicy">
+                      <div class="content">
+                        <img src="https://media.blueapron.com/recipes/35499/centered_main_dish_images/1667942202-49-0031-0601/1212_2P9_Garlic-Shrimp-Spanish-Style-Potatoes_2226_Web.jpg?quality=80&width=800" alt="Car" style="width:100%">
+                        <br><h4> Legendary Garlic Shrimp</h4>
+                        <hr>
+                        <h5>with spanish-style-potatoes</h5>
+                        <p> Time - 40mins </p>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                          Read More 
+                        </button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                          Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                        </button>
+                      
+                      </div>
+                    </div>
+                    <div class="column spicy">
+                      <div class="content">
+                      <img src="https://media.blueapron.com/recipes/35568/centered_main_dish_images/1668104835-47-0005-5381/0708_2PF_Togarashi-Tilapia_053_CropRight_Web.jpg?quality=80&width=800" alt="Car" style="width:100%">
+                      <br><h4>Togarashi Tilapia & Garlic </h4>
+                      <hr>
+                      <h5>with radishes and  cucumbers</h5>
+                      <p> Time - 25mins </p>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Read More 
+                      </button>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                        Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                      </button>
+                    
+                      </div>
+                    </div>
+                    <div class="column spicy">
+                      <div class="content">
+                        <img src="https://insanelygoodrecipes.com/wp-content/uploads/2022/11/Homemade-Cavatappi-Pasta-with-Meatballs-Tomato-Sauce-and-Basil.jpg" alt="Car" style="width:100%">
+
+                      <br><h4>Spicy Cavatappi & Beef</h4>
+                      <hr>
+                      <h5>with Ricotta Cheese</h5>
+                      <p> Time - 10mins </p>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Read More 
+                      </button>
+                      <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                        Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                      </button>
+                    
+                      </div>
+                    </div>
+
+                    <div class="column normal">
+                        <div class="content">
+                          <img src="https://static.onecms.io/wp-content/uploads/sites/44/2021/01/06/creamy-salmon-orzo-2000.jpg" alt="Car" style="width:100%">
+                          <br><h4>Crispy Salmon & Orzo</h4>
+                        <hr>
+                        <h5>with lemon-sauce</h5>
+                        <p> Time - 40mins </p>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                          Read More 
+                        </button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                          Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                        </button>
+                      </div>
+                        
+                      </div>
+                      <div class="column normal">
+                        <div class="content">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzgfORmj9-IrBzp67ntjAXLvefkt15r2WF__AZYKIujAVJc6hqWxc_Ygrpnf4kQuH0S-M&usqp=CAU" alt="Car" style="width:100%">
+                        <br><h4> Pork Sausage & Kale Pasta</h4>
+                        <hr>
+                        <h5>with Fried Sage</h5>
+                        <p> Time -  25 mins </p>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                          Read More 
+                        </button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                          Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                        </button>
+                      </div>
+                        
+                      </div>
+                      <div class="column normal">
+                        <div class="content">
+                        <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx0TfivWrIeZ-0Lps6Yem33RWrjVwCVsI1ai7LkEG1iCbgoHz2omufpLaVTWaNjJ0abn0&usqp=CAU    alt="Car" style="width:100%">
+                        <br><h4>Chicken Grain Bowl</h4>
+                        <hr>
+                        <h5>with lemo-tahini sauce</h5>
+                        <p> Time - 35mins </p>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                          Read More 
+                        </button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                          Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                        </button>
+                      </div>
+                        
+                      </div>
+
+                      <div class="column normal">
+                        <div class="content">
+                          <img src="https://foodiesterminal.com/wp-content/uploads/2020/06/instant-pot-pork-lo-mein-recipe.jpg" alt="Car" style="width:100%">
+                          <br><h4>Pork Lo Mein</h4>
+                        <hr>
+                        <h5>with seasame seeds</h5>
+                        <p> Time - 25mins </p>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                          Read More 
+                        </button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                          Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                        </button>
+                        </div>
+                      </div>
+                      <div class="column normal">
+                        <div class="content">
+                        <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FEdit%2F2022-06-Steak-Tacos%2FIMG_8389" alt="Car" style="width:100%">
+                        <br><h4>Flank Steak Tacos</h4>
+                        <hr>
+                        <h5>with lime and orange</h5>
+                        <p> Time - 45mins </p>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                          Read More 
+                        </button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                          Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                        </button>
+                        </div>
+                      </div>
+                      <div class="column normal">
+                        <div class="content">
+                        <img src="https://food-images.files.bbci.co.uk/food/recipes/gnocchi_with_crispy_19660_16x9.jpg" alt="Car" style="width:100%">
+                        <br><h4> Pesto Gnochhi</h4>
+                        <hr>
+                        <h5>with mushrooms</h5>
+                        <p> Time - 25mins </p>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                          Read More 
+                        </button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+                          Add to the cart <i class="fa-solid fa-cart-shopping"></i>                      
+                        </button>
+                        </div>
+                      </div>
+                  <!-- END GRID -->
+                  </div>
+            
+                
+            </div>
+        </section>
+
+<hr>
+
+
+        
+            
+     
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+
+<!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Oven-Baked Squash & Black Bean</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+<!-- Modal body -->
+      <div class="modal-body">
+        <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+          <div class="container">
+              <div class="d-sm-flex align-items-center justify-content-between">
+                  <div>
+                    <h4>Oven-Baked Squash & Black Bean</h4>
+                    <hr>
+                    <h5>with Sour Cream and Cispy Onions</h5>
+                    <p> Time - 40mins </p>
+                  </div>
+                  <img class="img-fluid w-60 d-none d-sm-block"src="https://media.blueapron.com/recipes/35051/square_newsletter_images/1667845108-50-0004-3980/1212_2PV2_Chipotle-Squash-Tacos_081_SQ_Web.jpg?quality=80&width=850" style=" width: 400px;" alt="">
+                  <br><br>
+              </div>
+              <div>
+                <h4>From the Test Kitchen</h4>
+                <p>Our Ready to Cook recipes are the latest addition to our Fast & Easy menu. Featuring pre-chopped ingredients and a recyclable baking tin, these recipes make prep and cleaning a breeze. Just assemble, bake, and enjoy! To pile into soft flour tortillas, you'll bake a hearty vegetarian filling of butternut squash, black beans, spinach, smoky-sweet guajillo sauce, and spicy chipotle chile paste. You'll top the tacos off with crunchy peanuts and crispy onions.</p>
+                <hr>
+                <h4>Dietary Inforamtion</h4>
+                <p> vegetarian</p>
+                <hr>
+                <h4>ingredients</h4>
+                <p>
+                  <ul>
+                  <li>½ lb Diced Butternut Squash</li>
+                  <li> 4 Flour Tortillas</li>
+                    <li>1 15.5-Oz Can Black Beans</li>
+                      <li> 2 tsps Chipotle Chile Paste</li>
+                        <li>⅓ cup Guajillo Chile Pepper Sauce</li>
+                          <li>3 oz Baby Spinach</li>
+                            <li> 2 oz Shredded Cheddar & Monterey Jack Cheese Blend</li>
+                              <li>¼ cup Sour Cream</li>
+                                <li>⅓ cup Crispy Onions</li>
+                                  <li> 3 Tbsps Roasted Peanuts</li>
+                </ul>
+              </p>
+
+                <hr>
+                <h4> Instructions</h4>
+                <p>
+                <ul>
+                  <ol>
+                    Prepare the ingredients & make the base
+                  </ol>
+                  <ol>
+                    Bake the tray & add the cheese
+                  </ol>
+                  <ol>
+                    Warm the tortillas & serve your dish
+                  </ol>
+                </ul>
+                </p>
+              </div>
+              <hr>
+                <h4> Nutrition </h4>
+                <p> Calories -780 cals per serving </p>
+                <hr>
+                <h4> Price </h4>
+                <p> 60 $ </p>
+
+
+          </div>
+      </section>      
+    </div>
+
+   
+
+    </div>
+  </div>
+</div>
+
+ <!-- Modal 2-->
+ <div class="modal fade" id="myModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"> Sign Up A New Account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <section class="bg-dark text-light p-3 p-lg-0 pt-lg-5 text-center text-sm-start">
+          
+      <div class="modal-body">
+          <form action="/action_page.php">
+              <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              </div>
+              <div class="mb-3">
+                <label for="pwd" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+              </div>
+              <div class="form-check mb-3">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+              </div>
+          
+      
+              </form>
+              <p class="text-center ">--------- Or Continue with ---------</p>
+              <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <a href="#" class="btn btn-outline-info mt-3">
+                          <i class="fa-brands fa-square-facebook"></i></a>
+                  </div>
+                  <div class="col">
+                      <a href="#" class="btn btn-outline-info mt-3">
+                          <i class="fa-brands fa-apple"></i></a>
+                </div>
+                <div class="col">
+                  <a href="#" class="btn btn-outline-info mt-3">
+                      <i class="fa-brands fa-google"></i></a>
+            </div>
+            <div class="col">
+              <a href="#" class="btn btn-outline-info mt-3">
+                  <i class="fa-brands fa-line"></i></a>
+        </div>
+      </div>
+            </form>
+            <br>
+            <br>
+            
+              <p class="text-center"> <a href="#" class="btn btn-outline-info mt-3">
+                  Get the promo code for your first purchase !</a></p>
+         
+          </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<footer class="p-5 bg-secondary text-white  position-relative">
+  <div class="container ">
+      <div class=" align-items-center justify-content-between">
+      <div class="row g-4">
+          
+          <div class="col-md">
+
+              <h2 class="lead"> Copyright &copy; 2022 </h2>
+                  <h3>🅸🅽 🅰 🅱🅾🆇</h3>
+                  <br>
+                  <div class="col-md">
+                    <h3>Follow us on</h3>
+  
+                    <a href="https://www.facebook.com/htike.s.winn" class="btn btn-outline-info mt-3">
+                      <i class="fa-brands fa-square-facebook"></i></a>
+                      <a href="https://instagram.com/chapmeow?igshid=YmMyMTA2M2Y=" class="btn btn-outline-info mt-3">
+                          <i class="fa-brands fa-instagram"></i></a>
+                          <a href="https://twitter.com/adorablemeows?s=21&t=ii4DVYXyJYpbTvuJ0TLgWQ" class="btn btn-outline-info mt-3">
+                              <i class="fa-brands fa-twitter"></i></a>
+                              <a href="https://pin.it/4yVOcnF" class="btn btn-outline-info mt-3">
+                                  <i class="fa-brands fa-pinterest"></i></a>
+                                  <a href="mailto:hhtikesan71@gmail.com" class="btn btn-outline-info mt-3">
+                                    <i class="fa-brands fa-google"></i></a>
+             
+                          </div>
+              
+    
+          </div>
+          <div class="col-md">
+              <h3>Meal Kit Delivery</h3>
+              <p>On the menu</p>
+              <p>How it works</p>
+              <p>Recycle</p>
+
+              <p>Claim gift</p>
+
+             </div>
+
+             <div class="col-md">
+                 <h3>About us</h3>
+                 <p>Culinary Team</p>
+                 <p>Organic Food</p>
+                 <p>Farm and Sources</p>
+                 <p>Suppliers</p>
+             </div>
+
+             <div class="col-md">
+                 <h3>Contact us</h3>
+                 <p>Help & Contact</p>
+                 <p>FAQS</p>
+                 <p>Address</p>
+             </div>
+      </div>
+  </div>
+  
+      <a href="#" class="  position-absolute  fixed-buttom bottom-0 end-0 p-5">
+        <h1><i class="fa-sharp fa-solid fa-list"></i></h1></a>     
+<br>
+
+ 
+</div>
+</footer>
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+        
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        
+        
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
+
+    <script>
+        const dropdown =document.querySelector('.dropdown');
+
+dropdown.addEventListener('click',()=>{
+    dropdown.classList.toggle('active');
+
+});
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
